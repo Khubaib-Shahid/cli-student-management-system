@@ -35,7 +35,7 @@ async function student() {
             message: "Welcome in Student Management System",
             type: "list",
             name: "enroll",
-            choices: ["Get Enroll", "Already a student"],
+            choices: ["Get Enroll", "Already a student", "Exit"]
         },
     ]);
     if (recep.enroll === "Get Enroll") {
